@@ -1,55 +1,55 @@
-% •W–{‰»ŠÔŠu‚Æ‹óŠÔ‰ğ‘œ“x
+% ï¿½Wï¿½{ï¿½ï¿½ï¿½ÔŠuï¿½Æ‹ï¿½Ô‰ğ‘œ“x
 
-clear; % •Ï”‚ÌƒI[ƒ‹ƒNƒŠƒA
+clear; % ï¿½Ïï¿½ï¿½ÌƒIï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½A
 
-ORG=imread('img/cat.jpg'); % Œ´‰æ‘œ‚Ì“ü—Í
+ORG=imread('img/cat.jpg'); % ï¿½ï¿½ï¿½æ‘œï¿½Ì“ï¿½ï¿½ï¿½
 
-imagesc(ORG); axis image; % ‰æ‘œ‚Ì•\¦
-pause; % ˆê’â~
-
-
-IMG = imresize(ORG,0.5); % ‰æ‘œ‚Ìk¬
-
-IMG2 = imresize(IMG,2,'box'); % ‰æ‘œ‚ÌŠg‘å
-
-imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
-
-pause; % ˆê’â~
+imagesc(ORG); axis image; % ï¿½æ‘œï¿½Ì•\ï¿½ï¿½
+pause; % ï¿½êï¿½ï¿½~
 
 
-IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
+IMG = imresize(ORG,0.5); % ï¿½æ‘œï¿½Ìkï¿½ï¿½
 
-IMG2 = imresize(IMG,4,'box'); % ‰æ‘œ‚ÌŠg‘å
+IMG2 = imresize(IMG,2,'box'); % ï¿½æ‘œï¿½ÌŠgï¿½ï¿½
 
-imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
+imagesc(IMG2); axis image; % ï¿½æ‘œï¿½Ì•\ï¿½ï¿½
 
-pause; % ˆê’â~
+pause; % ï¿½êï¿½ï¿½~
 
 
+IMG = imresize(IMG,0.5); % ï¿½æ‘œï¿½Ìkï¿½ï¿½
 
-IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
+IMG2 = imresize(IMG,4,'box'); % ï¿½æ‘œï¿½ÌŠgï¿½ï¿½
 
-IMG2 = imresize(IMG,8,'box'); % ‰æ‘œ‚ÌŠg‘å
+imagesc(IMG2); axis image; % ï¿½æ‘œï¿½Ì•\ï¿½ï¿½
 
-imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
-
-pause; % ˆê’â~
+pause; % ï¿½êï¿½ï¿½~
 
 
 
-IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
+IMG = imresize(IMG,0.5); % ï¿½æ‘œï¿½Ìkï¿½ï¿½
 
-IMG2 = imresize(IMG,16,'box'); % ‰æ‘œ‚ÌŠg‘å
+IMG2 = imresize(IMG,8,'box'); % ï¿½æ‘œï¿½ÌŠgï¿½ï¿½
 
-imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
+imagesc(IMG2); axis image; % ï¿½æ‘œï¿½Ì•\ï¿½ï¿½
 
-pause; % ˆê’â~
+pause; % ï¿½êï¿½ï¿½~
 
 
 
-IMG = imresize(IMG,0.5); % ‰æ‘œ‚Ìk¬
+IMG = imresize(IMG,0.5); % ï¿½æ‘œï¿½Ìkï¿½ï¿½
 
-IMG2 = imresize(IMG,32,'box'); % ‰æ‘œ‚ÌŠg‘å
+IMG2 = imresize(IMG,16,'box'); % ï¿½æ‘œï¿½ÌŠgï¿½ï¿½
 
-imagesc(IMG2); axis image; % ‰æ‘œ‚Ì•\¦
+imagesc(IMG2); axis image; % ï¿½æ‘œï¿½Ì•\ï¿½ï¿½
+
+pause; % ï¿½êï¿½ï¿½~
+
+
+
+IMG = imresize(IMG,0.5); % ï¿½æ‘œï¿½Ìkï¿½ï¿½
+
+IMG2 = imresize(IMG,32,'box'); % ï¿½æ‘œï¿½ÌŠgï¿½ï¿½
+
+imagesc(IMG2); axis image; % ï¿½æ‘œï¿½Ì•\ï¿½ï¿½
 
