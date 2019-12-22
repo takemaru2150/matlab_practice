@@ -37,7 +37,7 @@ imagesc(IMG); colormap(gray); colorbar;
 
 によって、白黒濃淡画像（輝度値が96以上の画素を1，その他を0に変換）を作成し表示した。結果を図3に示す。
 
-![kadai3_3](https://user-images.githubusercontent.com/50776559/71319962-43661e80-24e8-11ea-994f-a5f531a420e5.png)
+![kadai3_3](https://user-images.githubusercontent.com/50776559/71320112-3c401000-24ea-11ea-809d-94eef40b0222.png)
 図3 白黒濃淡画像（輝度値が96以上の画素を1，その他を0に変換）
 
 ## 輝度値が128以上の画素を1，その他を0に変換
@@ -49,7 +49,7 @@ imagesc(IMG); colormap(gray); colorbar;
 
 によって、白黒濃淡画像（輝度値が128以上の画素を1，その他を0に変換）を作成し表示した。結果を図4に示す。
 
-![kadai3_4](https://user-images.githubusercontent.com/50776559/71319964-43feb500-24e8-11ea-9353-ca19aa5c59b0.png)
+![kadai3_4](https://user-images.githubusercontent.com/50776559/71320113-3c401000-24ea-11ea-94b0-132d672bb745.png)
 図4 白黒濃淡画像（輝度値が128以上の画素を1，その他を0に変換）
 
 ## 輝度値が192以上の画素を1，その他を0に変換
@@ -61,5 +61,5 @@ imagesc(IMG); colormap(gray); colorbar;
 
 によって、白黒濃淡画像（輝度値が192以上の画素を1，その他を0に変換）を作成し表示した。結果を図5に示す。
 
-![kadai3_5](https://user-images.githubusercontent.com/50776559/71319965-43feb500-24e8-11ea-9a5a-1e793f10df0b.png)
+![kadai3_5](https://user-images.githubusercontent.com/50776559/71320117-406c2d80-24ea-11ea-8e85-2b77a7d82bf1.png)
 図5 白黒濃淡画像（輝度値が192以上の画素を1，その他を0に変換）
