@@ -4,16 +4,23 @@
 
 ## 原画像の表示
 
+![cat](https://user-images.githubusercontent.com/50776559/71508485-49cf0e80-28cb-11ea-87fc-ca4bfb64c480.jpg)
+
+図1 原画像
+
+## 原画像をグレースケール
+
 ```
 ORG=imread('img/cat.jpg'); % 原画像の入力
 ORG = rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
 imagesc(ORG); colormap(gray); colorbar;
 ```
 
-によって，原画像を読み込み、カラー画像を白黒濃淡画像へ変換し表示した結果を図１に示す．
+によって，原画像を読み込み、カラー画像を白黒濃淡画像へ変換し表示した結果を図2に示す．
 
 ![kadai5_1](https://user-images.githubusercontent.com/50776559/71503441-847b7b80-28b8-11ea-9d74-ee0d322aabff.png)
-図1 原画像
+
+図2 原画像をグレースケールした画像
 
 ## 2階調画像の作成
 
@@ -48,7 +55,12 @@ IMG = ORG > max_thres;
 imagesc(IMG); colormap(gray); colorbar;
 ```
 
-によって、画像を表示した。結果を図2に示す。
+によって、画像を表示した。結果を図3に示す。
 
 ![kadai5_2](https://user-images.githubusercontent.com/50776559/71503446-880f0280-28b8-11ea-89f0-25fb01986c36.png)
-図2 二値化した画像
+
+図3 二値化した画像
+
+## 考察
+
+クラス間分散が大きく、クラス内分散が小さいという条件の下に閾値を定めると255という値が必然的に求まる。そもそもこうした画像に対して判別分析法を用いる必要が全くないが、背景や対象物が複雑な模様や色であったりする場合の判別分析法の適用には注意が必要であると考えられる。
